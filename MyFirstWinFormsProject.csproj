@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19E99098-03F8-4202-940E-56342FC453C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyFirstWinFormsProject</RootNamespace>
+    <AssemblyName>MyFirstWinFormsProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAddNewUserScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewUserScreen.Designer.cs">
+      <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAthkaar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAthkaar.Designer.cs">
+      <DependentUpon>frmAthkaar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBilliardClub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBilliardClub.Designer.cs">
+      <DependentUpon>frmBilliardClub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalculateSumLetters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculateSumLetters.Designer.cs">
+      <DependentUpon>frmCalculateSumLetters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckListBox.Designer.cs">
+      <DependentUpon>frmCheckListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComboBoxExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComboBoxExercise.Designer.cs">
+      <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDateTimePicker.Designer.cs">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDialogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogs.Designer.cs">
+      <DependentUpon>frmDialogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawing.Designer.cs">
+      <DependentUpon>frmDrawing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmErrorProviderAndProgressBarExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmErrorProviderAndProgressBarExercise.Designer.cs">
+      <DependentUpon>frmErrorProviderAndProgressBarExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGetPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGetPermissions.Designer.cs">
+      <DependentUpon>frmGetPermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGetPermissions2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGetPermissions2.Designer.cs">
+      <DependentUpon>frmGetPermissions2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKeyboardTypingGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKeyboardTypingGame.Designer.cs">
+      <DependentUpon>frmKeyboardTypingGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerateRandomCharacters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateRandomCharacters.Designer.cs">
+      <DependentUpon>frmGenerateRandomCharacters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKeyboardTyping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKeyboardTyping.Designer.cs">
+      <DependentUpon>frmKeyboardTyping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListView.Designer.cs">
+      <DependentUpon>frmListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListViewAndTabControlExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListViewAndTabControlExercise.Designer.cs">
+      <DependentUpon>frmListViewAndTabControlExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginScreenForThreeTimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginScreenForThreeTimes.Designer.cs">
+      <DependentUpon>frmLoginScreenForThreeTimes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMathQuiz_MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMathQuiz_MainScreen.Designer.cs">
+      <DependentUpon>frmMathQuiz_MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMathQuiz_ResultsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMathQuiz_ResultsScreen.Designer.cs">
+      <DependentUpon>frmMathQuiz_ResultsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMathQuiz_StartQuizScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMathQuiz_StartQuizScreen.Designer.cs">
+      <DependentUpon>frmMathQuiz_StartQuizScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMemoryGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMemoryGame.Designer.cs">
+      <DependentUpon>frmMemoryGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuStrip.Designer.cs">
+      <DependentUpon>frmMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonthCalander.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonthCalander.Designer.cs">
+      <DependentUpon>frmMonthCalander.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMoveItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMoveItems.Designer.cs">
+      <DependentUpon>frmMoveItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotifyIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotifyIcon.Designer.cs">
+      <DependentUpon>frmNotifyIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNumberOfDigitInMatrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumberOfDigitInMatrix.Designer.cs">
+      <DependentUpon>frmNumberOfDigitInMatrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPictureBox.Designer.cs">
+      <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPictureBoxExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPictureBoxExercise.Designer.cs">
+      <DependentUpon>frmPictureBoxExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintReverseString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintReverseString.Designer.cs">
+      <DependentUpon>frmPrintReverseString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressBar.Designer.cs">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabControl.Designer.cs">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTasbeeh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTasbeeh.Designer.cs">
+      <DependentUpon>frmTasbeeh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicTacToeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicTacToeUpdate.Designer.cs">
+      <DependentUpon>frmTicTacToeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimer.Designer.cs">
+      <DependentUpon>frmTimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlarmClock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlarmClock.Designer.cs">
+      <DependentUpon>frmAlarmClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToDoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDoList.Designer.cs">
+      <DependentUpon>frmToDoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrackBar.Designer.cs">
+      <DependentUpon>frmTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreeviewAndImageliat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeviewAndImageliat.Designer.cs">
+      <DependentUpon>frmTreeviewAndImageliat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreeviewAndImageliatExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeviewAndImageliatExercise.Designer.cs">
+      <DependentUpon>frmTreeviewAndImageliatExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreeviewExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeviewExercise.Designer.cs">
+      <DependentUpon>frmTreeviewExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginScreen.Designer.cs">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.Designer.cs">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator2.Designer.cs">
+      <DependentUpon>Calculator2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info_Screen.Designer.cs">
+      <DependentUpon>Info_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddNewUserScreen.resx">
+      <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlarmClock.resx">
+      <DependentUpon>frmAlarmClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAthkaar.resx">
+      <DependentUpon>frmAthkaar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBilliardClub.resx">
+      <DependentUpon>frmBilliardClub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculateSumLetters.resx">
+      <DependentUpon>frmCalculateSumLetters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckListBox.resx">
+      <DependentUpon>frmCheckListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBoxExercise.resx">
+      <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDateTimePicker.resx">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDialogs.resx">
+      <DependentUpon>frmDialogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawing.resx">
+      <DependentUpon>frmDrawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmErrorProviderAndProgressBarExercise.resx">
+      <DependentUpon>frmErrorProviderAndProgressBarExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateRandomCharacters.resx">
+      <DependentUpon>frmGenerateRandomCharacters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGetPermissions.resx">
+      <DependentUpon>frmGetPermissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGetPermissions2.resx">
+      <DependentUpon>frmGetPermissions2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKeyboardTyping.resx">
+      <DependentUpon>frmKeyboardTyping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKeyboardTypingGame.resx">
+      <DependentUpon>frmKeyboardTypingGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListView.resx">
+      <DependentUpon>frmListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListViewAndTabControlExercise.resx">
+      <DependentUpon>frmListViewAndTabControlExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginScreenForThreeTimes.resx">
+      <DependentUpon>frmLoginScreenForThreeTimes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMathQuiz_MainScreen.resx">
+      <DependentUpon>frmMathQuiz_MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMathQuiz_ResultsScreen.resx">
+      <DependentUpon>frmMathQuiz_ResultsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMathQuiz_StartQuizScreen.resx">
+      <DependentUpon>frmMathQuiz_StartQuizScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMemoryGame.resx">
+      <DependentUpon>frmMemoryGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuStrip.resx">
+      <DependentUpon>frmMenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonthCalander.resx">
+      <DependentUpon>frmMonthCalander.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMoveItems.resx">
+      <DependentUpon>frmMoveItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotifyIcon.resx">
+      <DependentUpon>frmNotifyIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumberOfDigitInMatrix.resx">
+      <DependentUpon>frmNumberOfDigitInMatrix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPictureBox.resx">
+      <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPictureBoxExercise.resx">
+      <DependentUpon>frmPictureBoxExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintReverseString.resx">
+      <DependentUpon>frmPrintReverseString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgressBar.resx">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabControl.resx">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTasbeeh.resx">
+      <DependentUpon>frmTasbeeh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicTacToeUpdate.resx">
+      <DependentUpon>frmTicTacToeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimer.resx">
+      <DependentUpon>frmTimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToDoList.resx">
+      <DependentUpon>frmToDoList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrackBar.resx">
+      <DependentUpon>frmTrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeviewAndImageliat.resx">
+      <DependentUpon>frmTreeviewAndImageliat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeviewAndImageliatExercise.resx">
+      <DependentUpon>frmTreeviewAndImageliatExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeviewExercise.resx">
+      <DependentUpon>frmTreeviewExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreen.resx">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator2.resx">
+      <DependentUpon>Calculator2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info_Screen.resx">
+      <DependentUpon>Info_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShowPasswordIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-02-27 192708.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Weak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShowPassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HidePassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question-mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TicTacToeDesign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jordan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egypt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strawberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermelon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiwi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundMathQuiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartQuiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sand-clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldFrame1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmptyChoice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BiliardoTable.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BilliardTable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pool-table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile_Photo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
