@@ -95,7 +95,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(330, 31);
             this.txtPassword.TabIndex = 1;
-            this.txtPassword.Tag = "2522001soso";
+            this.txtPassword.Tag = "1234";
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // btnLogin

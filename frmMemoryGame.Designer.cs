@@ -94,77 +94,77 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(521, 239);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 32);
+            this.label2.Size = new System.Drawing.Size(108, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Moves:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(525, 280);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 32);
+            this.label3.Size = new System.Drawing.Size(99, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Score:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(521, 321);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 32);
+            this.label4.Size = new System.Drawing.Size(87, 31);
             this.label4.TabIndex = 3;
             this.label4.Text = "Time:";
             // 
             // lblMoves
             // 
             this.lblMoves.AutoSize = true;
-            this.lblMoves.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoves.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMoves.ForeColor = System.Drawing.Color.White;
             this.lblMoves.Location = new System.Drawing.Point(665, 239);
             this.lblMoves.Name = "lblMoves";
-            this.lblMoves.Size = new System.Drawing.Size(29, 32);
+            this.lblMoves.Size = new System.Drawing.Size(30, 31);
             this.lblMoves.TabIndex = 4;
             this.lblMoves.Text = "0";
             // 
             // lblNumberOfMin
             // 
             this.lblNumberOfMin.AutoSize = true;
-            this.lblNumberOfMin.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumberOfMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumberOfMin.ForeColor = System.Drawing.Color.White;
             this.lblNumberOfMin.Location = new System.Drawing.Point(650, 321);
             this.lblNumberOfMin.Name = "lblNumberOfMin";
-            this.lblNumberOfMin.Size = new System.Drawing.Size(44, 32);
+            this.lblNumberOfMin.Size = new System.Drawing.Size(46, 31);
             this.lblNumberOfMin.TabIndex = 5;
             this.lblNumberOfMin.Text = "00";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(686, 321);
+            this.label5.Location = new System.Drawing.Point(694, 321);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(21, 32);
+            this.label5.Size = new System.Drawing.Size(23, 31);
             this.label5.TabIndex = 6;
             this.label5.Text = ":";
             // 
             // lblNumberOfSec
             // 
             this.lblNumberOfSec.AutoSize = true;
-            this.lblNumberOfSec.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumberOfSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumberOfSec.ForeColor = System.Drawing.Color.White;
-            this.lblNumberOfSec.Location = new System.Drawing.Point(700, 321);
+            this.lblNumberOfSec.Location = new System.Drawing.Point(716, 321);
             this.lblNumberOfSec.Name = "lblNumberOfSec";
-            this.lblNumberOfSec.Size = new System.Drawing.Size(44, 32);
+            this.lblNumberOfSec.Size = new System.Drawing.Size(46, 31);
             this.lblNumberOfSec.TabIndex = 7;
             this.lblNumberOfSec.Text = "00";
             // 
@@ -172,7 +172,7 @@
             // 
             this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStart.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStart.ForeColor = System.Drawing.Color.White;
             this.btnStart.Location = new System.Drawing.Point(315, 821);
             this.btnStart.Name = "btnStart";
@@ -186,7 +186,7 @@
             // 
             this.btnRestart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
             this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestart.Font = new System.Drawing.Font("Zilla Slab", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestart.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestart.ForeColor = System.Drawing.Color.White;
             this.btnRestart.Location = new System.Drawing.Point(1020, 821);
             this.btnRestart.Name = "btnRestart";

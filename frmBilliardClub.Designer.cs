@@ -1695,7 +1695,7 @@
             this.AcceptButton = this.btnAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1533, 787);
+            this.ClientSize = new System.Drawing.Size(1606, 787);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);

@@ -55,7 +55,6 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.button21 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -212,7 +211,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(148, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(658, 71);
+            this.label1.Size = new System.Drawing.Size(658, 69);
             this.label1.TabIndex = 11;
             this.label1.Text = "This is a Practice Project";
             // 
@@ -374,16 +373,6 @@
             this.button19.Text = "Picture Box Excersie";
             this.button19.UseVisualStyleBackColor = true;
             this.button19.Click += new System.EventHandler(this.button19_Click);
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(282, 402);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(128, 49);
-            this.button20.TabIndex = 30;
-            this.button20.Text = "Drawing";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // maskedTextBox1
             // 
@@ -755,7 +744,7 @@
             // 
             // button54
             // 
-            this.button54.Location = new System.Drawing.Point(584, 745);
+            this.button54.Location = new System.Drawing.Point(282, 402);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(128, 49);
             this.button54.TabIndex = 78;
@@ -806,7 +795,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -872,7 +860,6 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.ComboBox comboBox1;

@@ -94,12 +94,6 @@
     <Compile Include="frmDialogs.Designer.cs">
       <DependentUpon>frmDialogs.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDrawing.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDrawing.Designer.cs">
-      <DependentUpon>frmDrawing.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmErrorProviderAndProgressBarExercise.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -350,9 +344,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDialogs.resx">
       <DependentUpon>frmDialogs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDrawing.resx">
-      <DependentUpon>frmDrawing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmErrorProviderAndProgressBarExercise.resx">
       <DependentUpon>frmErrorProviderAndProgressBarExercise.cs</DependentUpon>

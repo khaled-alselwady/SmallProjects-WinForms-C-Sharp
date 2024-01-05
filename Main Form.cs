@@ -165,8 +165,7 @@ namespace MyFirstWinFormsProject
 
         private void button20_Click(object sender, EventArgs e)
         {
-            Form F = new frmDrawing();
-            F.Show();
+            
         }
 
         private void button21_Click(object sender, EventArgs e)

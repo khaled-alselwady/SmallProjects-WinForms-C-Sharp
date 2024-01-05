@@ -17,7 +17,7 @@ namespace MyFirstWinFormsProject
             InitializeComponent();
         }
 
-        enum enTypeCharacter { enLetter=1 , enSymbol, enNumbers, enMix}
+        enum enTypeCharacter { enLetter = 1, enSymbol, enNumbers, enMix }
 
         Random RandomCharacter = new Random();
 
@@ -43,11 +43,11 @@ namespace MyFirstWinFormsProject
 
         void GenerateRandomLetters()
         {
-           
+
             string Text = "";
             ushort NumberOfDigits = Convert.ToUInt16(txtNumberOfDigits.Text);
 
-            for (ushort i = 1; i <= NumberOfDigits; i++) 
+            for (ushort i = 1; i <= NumberOfDigits; i++)
             {
                 Text += (char)RandomCharacter.Next(65, 91);
             }
@@ -250,7 +250,14 @@ namespace MyFirstWinFormsProject
 
         private void lblCopy_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The text has been copied.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (!string.IsNullOrWhiteSpace(txtText.Text))
+            {
+                // Copy the text to the clipboard
+                Clipboard.SetText(txtText.Text);
+
+                MessageBox.Show("The text has been copied.", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }
